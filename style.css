@@ -1,6 +1,7 @@
 * {
   box-sizing: border-box;
   font-family: sans-serif;
+  -webkit-font-smoothing: antialiased;
 }
 
 html {
@@ -46,10 +47,36 @@ footer {
 .logo {
   font-size: 2rem;
   margin-bottom: 16px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 900;
+}
+
+.sublogo {
+  font-family: 'Raleway', sans-serif;
+  font-size: 1rem;
+  font-weight: 500;
+  color: hsla(270, 15%, 72%, 1);
+  font-style: italic;
+  line-height: 19px;
+}
+
+.person-name {
+  font-family: 'Raleway', sans-serif;
+  font-size: 1rem;
+  font-style: italic;
+  line-height: 19px;
+  color: hsla(270, 17%, 84%, 1);
+  font-weight: 700;
 }
 
 .legal {
   margin-top: auto;
+  font-family: 'Raleway', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 19px;
+  color: hsla(270, 12%, 58%, 1);
 }
 
 .links {
@@ -61,6 +88,13 @@ footer {
   margin-bottom: 24px;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  font-family: 'Raleway', sans-serif;
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 19px;
+  color: hsla(270, 12%, 58%, 1);
+  font-style: normal;
+
 }
 
 .links li {
@@ -73,6 +107,12 @@ footer {
 
 .links a {
   text-decoration: none;
+  font-family: 'Raleway', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 32px;
+  color: hsla(270, 25%, 96%, 1);
 }
 
 main {
